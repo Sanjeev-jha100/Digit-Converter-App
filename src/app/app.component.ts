@@ -8,5 +8,15 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'app2';
+  count:number=0
+  
+  fun1(){
+    this.count=this.count+1
+  }
+  fun2(){
+    this.count=this.count-1
+  }
+  fun3(){
+    this.count=0
+  }
 }

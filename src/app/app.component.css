@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+    width: 100%;
+    
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: 48px;
+
+}
+.d1{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    background-color: rgb(28, 119, 119);
+    width: 200px;
+    border-radius: 20px;
+    height: auto;
+    padding: 20px;
+    display: block;
+    
+}
+.d2 button{
+    padding: 5px;
+    border-radius: 10px;
+    margin: 2px;
+    border: 1px solid;
+    background-color: black;
+    color: white;
+    
+}
+.d2 button:hover{
+    border: 2px solid yellow;
+    transform: scale(1.10);
+}
+h2{
+    color: yellow;
+    font-size: 36px;
+}
+h1::first-letter{
+    color:green;
+    font-size: 58px;
+    
+}
